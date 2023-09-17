@@ -1,0 +1,537 @@
+/* External fontlar */
+@font-face {
+  font-family: apple_font;
+  src: url(./sf-pro-display_semibold.woff2);
+}
+
+@font-face {
+  font-family: apple_font7;
+  src: url(./Articulat\ CF\ Demi\ Bold.ttf);
+}
+/* Style CSS başlar */
+* {
+  font-family: apple_font7;
+}
+/* h2'ler için font ayarları */
+h2 {
+  font-weight: 300;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+/* navbar styling başlangıç */
+.navbar {
+  padding: 0 12% !important;
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  background-color: rgb(18, 18, 18);
+  align-content: center;
+}
+.fa-brands {
+  font-size: 150%;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 48px;
+  align-items: center;
+  margin-bottom: 0px !important;
+  padding: 5px;
+  margin: 0 auto !important;
+}
+a {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 75%;
+  text-decoration: none !important;
+  color: rgb(208, 208, 208) !important;
+  font-weight: 300;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* navbar bitiş */
+
+/* İlk ürün için styling */
+.bg-img {
+  background-size: 225%;
+  background-position: 50% 500px;
+  background-image: url("https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro_announce__c1coc7n3a0uq_large.jpg");
+  height: 500px;
+  margin: 0;
+}
+/* header başlangıç */
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.header-h1 {
+  margin-top: 68px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 350%;
+  font-weight: lighter;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.header-h2 {
+  font-weight: 300;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 5px;
+  color: white;
+  font-size: 160%;
+}
+.header3 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.header-h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 15px;
+  color: rgb(100, 100, 103);
+  font-size: 120%;
+}
+.header4 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.header-h4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(100, 100, 103);
+  font-size: 120%;
+}
+/* header'ın bir kısmı burada biter */
+
+/* yönlendirmeler için icon linkler başlar */
+.icon-link1 {
+  display: flex !important;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.icon-link1 a {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 20px 30px;
+  color: rgb(42, 132, 218) !important;
+  font-size: 120% !important;
+}
+.icon-link1 a:hover {
+  text-decoration: underline !important;
+}
+/* icon-link1 için styling biter */
+
+/* 2. ürün için styling başlar */
+.second {
+  margin-top: 15px;
+}
+.bg-img2 {
+  background-image: url("https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg");
+  background-size: 200%;
+  background-position: 50% 358px;
+  height: 356px;
+}
+/* Ürün içi açıklamalar */
+.header5 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 247);
+}
+.header5-h1 {
+  margin-top: 68px;
+  margin-bottom: 0px;
+  color: rgb(29, 29, 31);
+  font-size: 350%;
+}
+
+.header6 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 247);
+}
+.header6-h2 {
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  font-size: 170%;
+  font-weight: 300;
+}
+.header7 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 247);
+}
+
+.header8 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 247);
+}
+/* Ürün için açıklamalar biter */
+/* icon-link yönlendirlemeri için styling başlar */
+.icon-link2 {
+  display: flex !important;
+  justify-content: center;
+  background-color: rgb(245, 245, 247);
+}
+.icon-link2 a {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 30px;
+  color: rgb(42, 132, 218) !important;
+  font-size: 140%;
+  font-weight: lighter;
+}
+.icon-link2 a:hover {
+  text-decoration: underline !important;
+}
+/* icon-link2 styling biter */
+/* 2. ürün için styling biter */
+
+/* 3.ürün için styling başlar */
+.third {
+  margin-top: 15px;
+}
+/* 3. ürün image'ı için styling */
+.bg-img3 {
+  background-image: url("https://www.apple.com/tr/home/built_includes/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg");
+  background-size: 200%;
+  background-position: 50% 442px;
+  height: 442px;
+  margin: 0;
+}
+.header9 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.header9 img {
+  margin: 32px;
+}
+.header9-h1 {
+  margin-top: 68px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 525%;
+  font-weight: bold;
+}
+
+.header10 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.header10-h2 {
+  margin-top: 5px;
+  color: white;
+  font-size: 190%;
+  font-weight: lighter;
+}
+.header11 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.header12 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+/* icon-link3 yönledirmesi styling'i */
+.icon-link3 {
+  display: flex !important;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.icon-link3 a {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 30px;
+  color: rgb(42, 132, 218) !important;
+  font-size: 140%;
+  font-weight: lighter;
+}
+.icon-link3 a:hover {
+  text-decoration: underline !important;
+}
+/* icon-link3 styling'i biter */
+/* 3. ürün styling'i biter */
+
+/* 4. ürün styling'i başlar */
+.fourth {
+  margin-top: 15px;
+  flex-direction: column !important;
+  background-color: rgb(251, 251, 253);
+}
+/* 4. ürün image'ı styling'i */
+.bg-img4 {
+  background-image: url("https://www.apple.com/tr/home/built_includes/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg");
+  background-size: 200%;
+  background-position: 50% 305px;
+  height: 356px;
+  width: 70%;
+}
+.header13 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(251, 251, 253);
+}
+.header13 img {
+  margin-top: 32px;
+  margin-bottom: 5px;
+}
+
+.header14 {
+  background-color: rgb(251, 251, 253);
+}
+.header14-h2 {
+  color: rgb(0, 0, 0);
+  font-size: 140%;
+  font-weight: 300;
+}
+.header15 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(251, 251, 253);
+}
+.header15-h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: rgb(0, 0, 0);
+  font-size: 120%;
+}
+.header16 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(251, 251, 253);
+}
+.header16-h4,
+.sixth h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 5px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 120%;
+}
+/* icon-link4 yönlendirmesi için styling */
+.icon-link4 {
+  display: flex !important;
+  justify-content: center;
+  background-color: rgb(251, 251, 253);
+}
+.icon-link4 a {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 30px;
+  margin-top: 0;
+  color: rgb(42, 132, 218) !important;
+  font-size: 110%;
+  font-weight: 300;
+}
+.icon-link4 a:hover {
+  text-decoration: underline !important;
+}
+/* icon-link4 styling'i biter */
+
+/* 4'lü ürün tanıtımları için ilk grup başlar */
+.group1 {
+  display: flex;
+  flex-direction: row;
+}
+/* 4. ürün styling'i alt satırla biter 5. ürün başlar */
+.fourth,
+.fifth {
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(251, 251, 253);
+}
+/* 5.ürün image'ı */
+.bg-img5 {
+  background-image: url("https://www.apple.com/v/home/be/images/promos/apple-watch-carbon-neutral/promo_carbon_neutral__fmzt9ypcw9e2_large.jpg");
+  background-size: 250%;
+  background-position: 50% 270px;
+  height: 356px;
+  width: 50%;
+}
+/* 6.ürün image'ı */
+.bg-img6 {
+  background-image: url("https://www.apple.com/tr/home/built_includes/promos/apple-watch-se/images/promo_apple_watch_se_order__j70okzn28uye_large.jpg");
+  background-size: 250%;
+  background-position: 50% 333px;
+  height: 333px;
+  width: 50%;
+}
+/* 7.ürün image'ı */
+.bg-img7 {
+  background-image: url("https://www.apple.com/tr/home/built_includes/promos/back-to-school-2023/images/promo_bts2023_startframe__exvt2t1iuxme_large.jpg");
+  background-size: 250%;
+  background-position: 50% 303px;
+  height: 272px;
+  width: 50%;
+}
+/* 7. ürün styling'i başlar */
+.seventh {
+  background-color: rgb(242, 242, 244) !important;
+}
+.seventh h1 {
+  padding-top: 20px !important;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 170%;
+  color: black;
+  margin: 0;
+  background-color: rgb(242, 242, 244) !important;
+}
+
+.seventh h3 {
+  font-weight: 300 !important;
+}
+
+.seventh h3,
+.seventh .icon-link4 {
+  padding-top: 8px !important;
+  margin: 0;
+  background-color: rgb(242, 242, 244) !important;
+}
+.sixth,
+.seventh {
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(251, 251, 253);
+}
+/* 7. ürün styling'i biter */
+.group2 {
+  display: flex;
+  flex-direction: row;
+}
+/* 3. grup başlar */
+.group3 {
+  display: flex;
+  flex-direction: row;
+}
+/* 8. ve 9. ürün styling'i başlar */
+.eighth,
+.ninth {
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(251, 251, 253);
+}
+
+.eighth h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 250%;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 2px !important;
+}
+.eighth h3 {
+  font-weight: 300 !important;
+  margin-bottom: 10px;
+}
+/* 8. ürün image'ı */
+.bg-img8 {
+  background-image: url("https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg");
+  background-size: 250%;
+  background-position: 50% 372px;
+  height: 349px;
+  width: 50%;
+}
+/* 9. ürün image'ı */
+.bg-img9 {
+  background-image: url("https://www.apple.com/tr/home/built_includes/promos/ipad-pro/images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg");
+  background-size: 120%;
+  background-position: 50% 50%;
+  height: 400px;
+  width: 100%;
+}
+/* 9. ürün styling'i */
+.ninth,
+.ninth h1,
+.ninth h3 {
+  color: white;
+  background-color: black !important;
+}
+.ninth h1,
+.ninth h3,
+.ninth .icon-link4 {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: black !important;
+}
+.ninth .header13 h1 {
+  padding-top: 70px !important;
+}
+/* Footer styling başlangıç */
+.footer {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+}
+.ul1,
+.ul2,
+.ul3,
+.ul4,
+.ul5 {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: start !important;
+  flex: 1;
+  align-items: start;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ul1 li,
+.ul2 li {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.ul1 h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 100%;
+}
+.footer h3,
+.footer a {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: black !important;
+}
+/* Footer styling bitiş */
+/* Koşullar ve footer menü kısmı styling */
+.kosullar li {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0;
+  font-weight: 300 !important;
+  font-size: 80%;
+  margin-bottom: 0 !important;
+}
+hr {
+  margin: auto !important;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.hr2 {
+  padding-top: 0 !important;
+}
+/* Koşullar ve footer menü kısmı styling biter*/
+/* Style CSS bitiş */
