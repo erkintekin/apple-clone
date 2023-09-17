@@ -312,6 +312,11 @@ li {
   color: rgb(0, 0, 0);
   font-size: 120%;
 }
+.fourth .header15 h3,
+.header16 h3 {
+  color: rgb(110, 110, 115);
+  font-size: 110%;
+}
 .header16 {
   display: flex;
   justify-content: center;
